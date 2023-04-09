@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1 {
+  /* color: red; */
+}
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialised;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+.container {
+  display: flex;
+  background: rgb(228, 225, 225);
+  border: 2px solid red;
+}
+nav .search {
+  display: flex;
+  /* flex-direction: column; */
+}
+nav .hburger {
+  display: flex;
+  flex-direction: row-reverse;
+}
